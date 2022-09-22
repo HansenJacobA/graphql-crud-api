@@ -1,4 +1,6 @@
 import { Location } from '../loc.model.js';
+import { Organization } from '../../organization/org.model.js';
+import mongoose from 'mongoose';
 
 const { name, address, latitude, longitude, org } = Location.schema.obj
 
@@ -37,10 +39,9 @@ describe('Location model', () => {
 
         test('org', () => {
             expect(org).toEqual({
-                type: String,
-                required: true,
-                trim: true,
-                maxlength: 50
+                type: mongoose.ObjectId,
+                ref: Organization,
+                required: true
             });
         });
     });

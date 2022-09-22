@@ -1,4 +1,6 @@
 import { Event } from '../event.model.js';
+import { Organization } from '../../organization/org.model.js';
+import mongoose from 'mongoose';
 
 const { name, date, time, description, org } = Event.schema.obj;
 
@@ -39,10 +41,9 @@ describe('Event model', () => {
 
         test('org', () => {
             expect(org).toEqual({
-                type: String,
-                required: true,
-                trim: true,
-                maxlength: 50
+                type: mongoose.ObjectId,
+                ref: Organization,
+                required: true
             });
         });
     });
