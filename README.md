@@ -55,7 +55,11 @@ To utilize this API:
 ### Useful resources
 
 - [Frontend Masters GraphQL Course](https://frontendmasters.com/courses/server-graphql-nodejs)
-- [Apollo Data Sources](https://www.apollographql.com/docs/apollo-server/data/data-sources/)
+- [Frontend Masters Advanced GraphQL Course](https://frontendmasters.com/courses/advanced-graphql-v2/)
+- [Node.js](https://nodejs.org/en/)
+- [Mongoose](https://mongoosejs.com/)
+- [Apollo Server](https://www.apollographql.com/docs/apollo-server/)
+- [Jest](https://jestjs.io/)
 
 ## Author
 
