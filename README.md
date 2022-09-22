@@ -21,7 +21,7 @@ To utilize this API:
 
 ### Links
 
-- [API GitHub Repository](https://github.com/HansenJacobA/econify-api)
+- [API GitHub Repository](https://github.com/HansenJacobA/graphql-crud-api)
 
 ## My process
 - Learn GraphQL

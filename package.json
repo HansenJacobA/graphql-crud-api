@@ -1,5 +1,5 @@
 {
-    "name": "econify-api",
+    "name": "graphql-crud-api",
     "version": "1.0.0",
     "description": "A Node.JS server with a GraphQL based API that has the abilities to Create, Read, Update, & Delete Locations & Events.",
     "main": "index.js",
@@ -11,14 +11,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/HansenJacobA/econify-api.git"
+        "url": "git+https://github.com/HansenJacobA/graphql-crud-api.git"
     },
     "author": "Jacob Hansen",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/HansenJacobA/econify-api/issues"
+        "url": "https://github.com/HansenJacobA/graphql-crud-api/issues"
     },
-    "homepage": "https://github.com/HansenJacobA/econify-api#readme",
+    "homepage": "https://github.com/HansenJacobA/graphql-crud-api#readme",
     "dependencies": {
         "apollo-server": "^3.10.2",
         "axios": "^0.27.2",
