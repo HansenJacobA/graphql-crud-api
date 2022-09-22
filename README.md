@@ -14,9 +14,9 @@
 This is a Node.JS server with a GraphQL based API that has the abilities to Create, Read, Update, & Delete Locations & Events. This API is also able to query and find all the locations & events belonging to an organization, as well as the reverse: being able to query a location(s) / event(s) and having the ability to find the organization it belongs to. When a user submits a location with an address, the latitude & longitude is gathered via the Google Places API.
 
 To utilize this API:
-- Install dependencies - npm i
+- Install dependencies - '''npm i'''
 - Define .env variables (Google Places API token & db url)
-- Start database and Apollo server - npm start
+- Start database and Apollo server - '''npm start'''
 - Open [Apollo playground](https://studio.apollographql.com/sandbox/explorer) to use API
 
 ### Links
